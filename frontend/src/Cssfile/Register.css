@@ -1,0 +1,126 @@
+.userregister{
+
+    margin-top: 4%;    
+    padding: 3%;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.userfundoo{
+    font-size: 210%;
+    padding-bottom:2%;
+}
+.userSignUp{
+    color: black;
+    font-size: 165%;
+    padding-bottom: 2%;
+}
+.userfirstlastname  {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width:100%;
+    padding-bottom: 1%;
+}
+.useremail1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width:100%;
+    padding-bottom: 1%;
+
+}
+.phoneNumber{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width:100%;
+    padding-bottom: 1%;
+}
+.userPassword{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width:100%;
+    
+ }
+
+.userbutton{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+
+}
+div p{
+    align-items: center;
+    margin-left: 20%;
+    padding-right: 20%
+}
+.main{
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-between;
+}
+.img1{
+    justify-content: center;
+    flex-direction: column;
+
+}
+.passwordvalid{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+   
+}
+@media only screen and (max-width: 600px) 
+{
+
+    .register{
+        position: absolute;
+        margin-top: 3%;
+        width: 55%;
+        height: 60%;
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 10px;
+        resize: none;
+    }
+    .name{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 3%;
+    }
+    .password1{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 3%;
+    
+    }
+    .useremail{
+        padding: 3%;    
+    }
+    .userbutton{
+        display: flex;
+        justify-content: space-between;
+        padding: 3%;
+    
+    }
+    .main{
+        display: flex;
+        
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .img1{
+        display: none;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+}

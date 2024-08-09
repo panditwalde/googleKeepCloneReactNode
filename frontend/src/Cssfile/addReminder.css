@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 250px;
+    padding: 10px
+}
+
+.today{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    cursor: pointer;
+    padding:4px;
+    font-family: cursive;
+}
+.pickdatetime{
+
+    cursor: pointer;
+    padding-left:20px;
+    padding-bottom:10px;
+    font-family: cursive;
+}

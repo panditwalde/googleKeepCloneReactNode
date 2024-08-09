@@ -1,0 +1,58 @@
+.trashnoted :hover .footerarea {
+  visibility: visible;
+ 
+}
+
+.footerarea {
+  visibility: hidden;
+}
+
+.card-grid-container {
+  display: grid;
+  gap: 20px; 
+  justify-content: start;
+
+
+  grid-template-columns: repeat(4, 1fr); 
+  padding: 0 200px; 
+
+}
+.gridview{
+
+  display: grid;
+  gap: 20px; 
+  justify-content: center;
+  grid-template-columns: repeat(1,1fr);
+
+
+}
+
+.message{
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+  justify-content: flex-start; /* Align items at the start of the container */
+  margin-left: 200px; /* Left margin */
+  margin-top: 40px; /* Top margin */
+  margin-bottom: 20px; /* Bottom margin */
+}
+.draweropen{
+
+  margin-left: 15%;
+  transition: margin 0.20s linear;
+
+}
+
+.hoverChip:hover .clearButton {
+  display: block;
+  visibility: visible;
+  padding-left: 5%;
+
+  }
+  .clearButton {
+  display: none;
+  visibility: hidden;
+  padding-left: 5%;
+
+  }
+
+  

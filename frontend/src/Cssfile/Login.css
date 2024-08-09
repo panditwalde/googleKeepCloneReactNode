@@ -1,0 +1,74 @@
+.login{
+    margin-top: 8%;
+    
+    padding: 5%;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.fundooLogin{
+    font-size: 210%;
+    padding-bottom:2%; 
+}
+.signInLogin{
+    color: black;
+    font-size: 165%;
+    padding-bottom: 4%;
+}
+.usernameLogin{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width:100%;
+}
+.passwordLogin{
+    
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+
+   
+}
+.buttonLogin{
+    padding-bottom: 4%;
+    padding-top: 4%;
+    display: flex;  
+    justify-content: space-between;
+}
+
+
+.Forgotpassword{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+h2.fundoo{
+    font-size: 36px;
+    font-family:cursive;
+    font-style: oblique;
+    /* opacity: 0.6; */
+}
+/* @media only screen and (max-width: 600px) {
+    .login{
+         margin-top: 0%;
+         margin-left: 0%;
+         width: initial;
+          height: initial;
+ 
+    }
+    .button{
+        margin-top: 0%;
+    }
+    .reset{
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .username{
+        width:74%;
+        padding: 4%;
+    }
+} */

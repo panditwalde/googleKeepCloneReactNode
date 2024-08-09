@@ -1,0 +1,17 @@
+{
+  "name": "fundoo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "npm start --prefix frontend",
+    "backend": "npm run dev --prefix backend",
+    "start": "concurrently \"npm run backend\" \"npm run frontend\" "
+
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
